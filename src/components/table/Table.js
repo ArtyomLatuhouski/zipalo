@@ -5,5 +5,6 @@ export class Table extends ExcelComponent {
   static className= "excel__tabel"
   toHTML() {
     return creatTable(20)
+    //12
   }
 }
