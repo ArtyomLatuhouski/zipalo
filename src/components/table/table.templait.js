@@ -5,8 +5,7 @@ const chorCode = {
 
 function toCell() {
   return `
-  <div class="cell" contenteditable="true">
-    
+  <div class="cell" contenteditable="true">    
   </div>
   `
 }
@@ -47,7 +46,6 @@ export function creatTable(rowsCount = 15) {
       .fill('')
       .map(toCell)
       .join('')
-
     rows.push(creatRow(cells,i+1))
   }
   return rows.join('')
