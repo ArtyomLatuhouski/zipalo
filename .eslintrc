@@ -13,7 +13,15 @@
     "max-len": "off",
     "comma-dangle": "off",
     "require-jsdoc": "off",
-    "eol-last": "off"
+    "eol-last": "off",
+    "comma-spacing": "off",
+    "quotes": "off",
+    "key-spacing": "off",
+    "spaced-comment": "off",
+    "space-before-blocks": "off",
+    "operator-linebreak": "off",
+    "keyword-spacing": "off",
+    "padded-blocks": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
